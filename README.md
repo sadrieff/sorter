@@ -1,33 +1,47 @@
 # FileSorter-Python 📂
 
-A simple and efficient Python script to automatically organize your Downloads folder (or any other directory) based on file extensions.
+A professional, event-driven Python utility that automatically organizes your Downloads folder in real-time. Stop manual sorting and let the script handle the chaos.
 
 ## ✨ Features
-- **Automatic Categorization**: Groups files into logical folders (Documents, Images, Media, etc.).
-- **Smart Directory Creation**: Automatically creates destination folders if they don't exist.
-- **Pathlib Integration**: Uses modern Python `pathlib` for robust path handling.
+- **Live Monitoring**: Uses `watchdog` to detect new files and move them instantly.
+- **Smart Collision Handling**: Automatically renames duplicates (e.g., `file(1).jpg`) to prevent data loss.
+- **External Configuration**: Manage file mappings and extensions easily via `config.json`.
+- **Robust Logging**: Keeps a detailed history of all operations in `file_sorter.log`.
+- **Cross-Platform**: Seamlessly works on Windows, macOS, and Linux thanks to `pathlib`.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.6 or higher installed on your system.
+- Python 3.8 or higher.
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Sadrieff/file-sorter-python.git](https://github.com/YOUR_USERNAME/file-sorter-python.git)
-2. Navigate to the directory:
+   git clone [https://github.com/Sadrieff/sorter]
+2. Install required dependencies::
    ```bash
-   cd file-sorter-python
-3. Run the Organizer:
+   pip install -r requirements.txt
+3. Run the application:
     ```bash
     python main.py
 
-🗺️ Roadmap
-This project is in its early stages. Future updates will include:
+## ⚙️ Configuration
+```json
+{
+"mapping": {
+"Images": [".jpg", ".png"],
+"Documents": [".pdf", ".txt"]
+}
+}
+```
+## 🗺️ Roadmap
 
-[ ] Cross-platform support: macOS/Linux support.
+- **[x] Cross-platform support (macOS/Linux/Windows).
 
-[ ] Duplicate handling: Renaming files instead of overwriting.
+- **[x] Duplicate handling (Safe renaming).
 
-[ ] Logging: Keeping track of moved files in a log file.
+- **[x] Logging system.
+
+- **[x] External JSON configuration.
+
+- **[x] Real-time file system monitoring.

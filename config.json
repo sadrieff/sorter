@@ -1,0 +1,14 @@
+{
+    "mapping": {
+        "Documents": [".pdf", ".docx", ".txt"],
+        "Images": [".jpg", ".jpeg", ".png", ".gif", ".heic"],
+        "Videos": [".mp4", ".avi", ".mkv"],
+        "Music": [".mp3", ".wav", ".aac"],
+        "Archives": [".zip", ".rar", ".tar.gz", ".7z"],
+        "Executables": [".exe", ".msi"],
+        "Spreadsheets": [".xlsx", ".csv"],
+        "Presentations": [".pptx", ".ppt"],
+        "Torrents": [".torrent"],
+        "Applications": [".apk", ".app", ".dmg"]
+    }
+}
