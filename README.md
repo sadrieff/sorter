@@ -36,12 +36,12 @@ A professional, event-driven Python utility that automatically organizes your Do
 ```
 ## 🗺️ Roadmap
 
-- **[x] Cross-platform support (macOS/Linux/Windows).
+- [x] Cross-platform support (macOS/Linux/Windows).
 
-- **[x] Duplicate handling (Safe renaming).
+- [x] Duplicate handling (Safe renaming).
 
-- **[x] Logging system.
+- [x] Logging system.
 
-- **[x] External JSON configuration.
+- [x] External JSON configuration.
 
-- **[x] Real-time file system monitoring.
+- [x] Real-time file system monitoring.
