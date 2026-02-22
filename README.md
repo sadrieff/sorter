@@ -23,11 +23,11 @@ A simple and efficient Python script to automatically organize your Downloads fo
     ```bash
     python main.py
 
-🗺️ Roadmap
+## 🗺️ Roadmap
 This project is in its early stages. Future updates will include:
 
-[ ] Cross-platform support: macOS/Linux support.
+- **[ ] Cross-platform support: macOS/Linux support.**
 
-[ ] Duplicate handling: Renaming files instead of overwriting.
+- **[ ] Duplicate handling: Renaming files instead of overwriting.**
 
-[ ] Logging: Keeping track of moved files in a log file.
+- **[ ] Logging: Keeping track of moved files in a log file.**
